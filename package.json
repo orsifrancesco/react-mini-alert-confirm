@@ -1,0 +1,29 @@
+{
+  "name": "react-mini-alert-confirm",
+  "version": "1.0.1",
+  "description": "Just a simple and easy to configure alert/confirm for React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alert",
+    "confirm",
+    "popup",
+	"prompt",
+    "mini",
+	"notification",
+    "push",
+    "react"
+  ],
+  "author": "Francesco Orsi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orsifrancesco/react-mini-alert-confirm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/orsifrancesco/react-mini-alert-confirm/issues"
+  },
+  "homepage": "https://github.com/orsifrancesco/react-mini-alert-confirm#readme"
+}
