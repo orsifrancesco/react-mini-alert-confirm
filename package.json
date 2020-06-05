@@ -1,7 +1,7 @@
 {
   "name": "react-mini-alert-confirm",
-  "version": "1.0.4",
-  "description": "Just a simple and easy to configure alert/confirm for React.",
+  "version": "1.0.5",
+  "description": "Simple and easy configurable alert/confirm dialog box for React.",
   "main": "./build/index.js",
   "scripts": {
     "build": "webpack"
@@ -10,6 +10,8 @@
     "alert",
     "confirm",
     "popup",
+    "dialog",
+    "box",
     "prompt",
     "mini",
     "notification",

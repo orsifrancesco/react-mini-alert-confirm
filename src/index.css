@@ -8,6 +8,7 @@ z-index: 99999;
 opacity: 0;
 visibility: hidden;
 transition: 0.3s;
+font-family: sans-serif;
 }
 .mini-alert-confirm .box {
 width: calc(50% - 10px);
