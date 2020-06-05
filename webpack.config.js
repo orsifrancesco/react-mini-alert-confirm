@@ -6,6 +6,7 @@ class RunAfterCompile {
     compiler.hooks.done.tap("Copy files", function () {
       fse.copySync("./src/img/", "./build/img/");
       fse.copySync("./src/index.css", "./build/index.css");
+      fse.copySync("./src/index.scss", "./build/index.scss");
     })
   }
 }
@@ -22,14 +23,14 @@ let config = {
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
-      // {
-      //   test: /\.css$/,
-      //   loader: "style-loader!css-loader"
-      // },
-      // {
-      //   test: /\.(jpg|jpeg|png|woff|woff2|eot|ttf|svg)$/,
-      //   loader: 'url-loader?limit=100000'
-      // }
+      {
+        test: /\.css$/,
+        loader: "style-loader!css-loader"
+      },
+      {
+        test: /\.(jpg|jpeg|png|woff|woff2|eot|ttf|svg)$/,
+        loader: 'url-loader?limit=100000'
+      }
     ]
   },
   externals: {
