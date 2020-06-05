@@ -1,6 +1,6 @@
 {
   "name": "react-mini-alert-confirm",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Simple and easy configurable alert/confirm dialog box for React.",
   "main": "./build/index.js",
   "scripts": {
@@ -14,6 +14,7 @@
     "box",
     "prompt",
     "mini",
+	"push",
     "notification",
     "push",
     "react"
@@ -41,8 +42,6 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "@material/react-button": "^0.15.0",
-    "prop-types": "^15.7.2",
     "react": "^16.12.0"
   }
 }

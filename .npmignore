@@ -1,3 +1,4 @@
 /src
 .babelrc
+.gitattributes
 webpack.config.js
