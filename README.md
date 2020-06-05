@@ -4,6 +4,8 @@
 
 Simple and easy configurable alert/confirm dialog box for React.
 
+![react-mini-alert-confirm](https://user-images.githubusercontent.com/6490641/83878015-5fc2e400-a733-11ea-93d6-b157c96afd46.gif "react-mini-alert-confirm")
+
 ## Installation
 
 ```bash
@@ -25,10 +27,10 @@ $ npm i react-mini-alert-confirm
     }
 
     <ReactMiniAlertConfirm
-        show={true}                                             // <-- optional, true/false
-        text="I'm a text"                                       // <-- optional, text of the alert/confirm
-        ico="error"                                             // <-- optional, ok/error
-        callback={                                              // <-- optional, if available it is a confirm dialog box
+        show={true}                                             {/* <-- optional, true/false */''}
+        text="I'm a text"                                       {/* <-- optional, text of the alert/confirm */''}
+        ico="error"                                             {/* <-- optional, ok/error */''}
+        callback={                                              {/* <-- optional, if available it is a confirm dialog box */''}
             () => console.log("I'm a confirm dialog box")
         }
     />
