@@ -7,7 +7,7 @@ Just a simple and easy to configure alert/confirm for React.
 ## Installation
 
 ```bash
-$ npm react-mini-alert-confirm
+$ npm i react-mini-alert-confirm
 ```
 
 ## Examples

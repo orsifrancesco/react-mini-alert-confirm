@@ -1,18 +1,18 @@
 {
   "name": "react-mini-alert-confirm",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Just a simple and easy to configure alert/confirm for React.",
-  "main": "index.js",
+  "main": "./build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "keywords": [
     "alert",
     "confirm",
     "popup",
-	"prompt",
+    "prompt",
     "mini",
-	"notification",
+    "notification",
     "push",
     "react"
   ],
@@ -25,5 +25,22 @@
   "bugs": {
     "url": "https://github.com/orsifrancesco/react-mini-alert-confirm/issues"
   },
-  "homepage": "https://github.com/orsifrancesco/react-mini-alert-confirm#readme"
+  "homepage": "https://github.com/orsifrancesco/react-mini-alert-confirm#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "fs-extra": "^9.0.0",
+    "css-loader": "^3.3.0",
+    "style-loader": "^1.0.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@material/react-button": "^0.15.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0"
+  }
 }

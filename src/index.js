@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+//import "./index.css";
 
 function ReactMiniAlertConfirm(props) {
 
