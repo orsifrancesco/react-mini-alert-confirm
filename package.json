@@ -1,5 +1,5 @@
 {
-  "name": "react-mini-alert-confirm",
+  "name": "@orsifrancesco/react-mini-alert-confirm",
   "version": "1.0.8",
   "description": "Simple and easy configurable alert/confirm dialog box for React.",
   "main": "./build/index.js",
